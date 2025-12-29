@@ -1,0 +1,9 @@
+{
+  "editor.formatOnSave": true, // 保存時にフォーマットを有効にする
+  "[python]": {
+      "editor.defaultFormatter": "charliermarsh.ruff", // PythonファイルのデフォルトフォーマッターをRuffに設定
+      "editor.codeActionsOnSave": {
+          "source.fixAll": "explicit" // 保存時に自動修正も実行する場合
+      }
+  },
+}
